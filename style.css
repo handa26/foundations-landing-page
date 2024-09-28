@@ -67,3 +67,108 @@ a {
 .hero-text p {
   font-size: 18px;
 }
+
+.information {
+  padding: 40px 180px;
+  background-color: #f5f5dc;
+}
+
+.information h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.information .cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+  margin-top: 30px;
+}
+
+.information .card {
+  text-align: center;
+}
+
+.information .card .card-img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #6DBE45;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.information .card p {
+  width: 70%;
+  margin: 10px auto;
+}
+
+.testimony {
+  padding: 40px 180px;
+  text-align: center;
+  background-color: #8D6748;
+  color: #f5f5dc;
+}
+
+.testimony .testimony-content {
+  width: 65%;
+  margin: auto;
+}
+
+.testimony h4 {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.testimony p {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.join {
+  background-color: #f5f5dc;
+  padding: 80px 180px;
+  color: #f5f5dc;
+
+  display: flex;
+  align-items: center;
+}
+
+.join .card {
+  background-color: #6DBE45;
+  border-radius: 15px;
+  width: 100%;
+  padding: 40px 180px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.join .card h5 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.join .card button {
+  border: 3px solid #f5f5dc;
+  color: #f5f5dc;
+  border-radius: 15px;
+  width: 200px;
+  padding: 20px;
+  background-color: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 20px 180px;
+  text-align: center;
+  background-color: #6DBE45;
+  color: #f5f5dc;
+}
